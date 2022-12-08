@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.602 s <<< FAILURE! - in TestSuite
+browserTest(testacademy.MobileBrowserTest)  Time elapsed: 0.041 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: URI and package arguments are required
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [c8f90f66-d3a8-43ab-875d-465447f42628, get {url=http://google.com}]
+Capabilities {appium:BrowserName: Chrome, appium:automationName: UIAutomator2, appium:chromedriverExecutable: C://Users//DELL//Downloads/..., appium:databaseEnabled: false, appium:desired: {BrowserName: Chrome, automationName: UIAutomator2, chromedriverExecutable: C://Users//DELL//Downloads/..., deviceName: Pixel_2_XL_API_33, platformName: android}, appium:deviceApiLevel: 33, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x2880, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 13, appium:statBarHeight: 98, appium:takesScreenshot: true, appium:viewportRect: {height: 2698, left: 0, top: 98, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: c8f90f66-d3a8-43ab-875d-465447f42628
+	at testacademy.MobileBrowserTest.browserTest(MobileBrowserTest.java:10)
+
